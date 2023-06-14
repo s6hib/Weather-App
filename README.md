@@ -22,7 +22,3 @@ https://weather-app.s6hib.repl.co/
 - JavaScript
 - OpenWeatherMap API
 
-## Screenshots
-
-I have added screenshots of the 
-
