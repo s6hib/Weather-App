@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="location-search">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" placeholder="Type your location">
+      <button class="fa-solid fa-search"></button>
+    </div>
+
+    <div class="error-message">
+      <p>Invalid location :/</p>
+    </div>
+
+    <div class="weather-info">
+      <p class="temp"></p>
+      <p class="weather-desc"></p>
+    </div>
+
+    <div class="additional-details">
+      <div class="humidity-info">
+        <i class="fa-solid fa-water"></i>
+        <div class="info-text">
+          <span></span>
+          <p>Humidity</p>
+        </div>
+      </div>
+      <div class="pressure-info">
+        <i class="fa-solid fa-gauge"></i>
+        <div class="info-text">
+          <span></span>
+          <p>Pressure</p>
+        </div>
+      </div>
+      <div class="sunrise-info">
+        <i class="fa-solid fa-sunrise"></i>
+        <div class="info-text">
+          <span></span>
+          <p>Sunrise</p>
+        </div>
+      </div>
+      <div class="sunset-info">
+        <i class="fa-solid fa-sunset"></i>
+        <div class="info-text">
+          <span></span>
+          <p>Sunset</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
